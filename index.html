@@ -1,1 +1,30 @@
-html
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charaset="utf-8">
+	<meta name="viewport" content="width=device-width, intital-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+	<title>Pick your [ MLB ] winner</title>
+</head>
+<body>
+	<div class="container">
+		<h2>Use our advanced metrics system to determine the Conference Champions,<h2>
+		<h2>Click on the "National League" and "American League" buttons to revival your contenders.</h2>
+			<div class="youPick">
+				<!-- East classes -->
+				<button id="nl" onclick="myNl()"> National League </button>
+				<h2> VS </h2>
+				<!-- West classes -->
+				<button id="al" onclick="myl()"> American League </button>			
+			</div>	
+		<h2 class="divide">---- Then ----</h2>
+
+		<h2>Find out who will be coming away the "WorldSeries" champions.</h2>
+		<p> * Our system may adjust for errors </p>	
+			<button id="champ" onclick="myChamp(); luck();"> WorldSeries Champion </button>
+		<h1 id="luck"> Good Luck! </h1>
+	</div>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
